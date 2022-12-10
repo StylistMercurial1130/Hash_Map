@@ -54,9 +54,8 @@ public:
 
 int main(int argc,char **argv) {
     HashMap<std::string,int> hshmap;
-    /*nice !*/
-    hshmap.Insert("Karthik",6);
-    hshmap.Insert("Venkatesh",9);
+    hshmap.Insert("Karthik",3);
+    hshmap.Insert("Venkatesh",0);
     std::cout << hshmap.Get("Karthik") << hshmap.Get("Venkatesh") << std::endl;
     return 0;
 }
